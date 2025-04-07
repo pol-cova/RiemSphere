@@ -1,4 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RiemannSphere
+Riemann Sphere is a web application that allows users to explore the Riemann sphere, a fascinating mathematical object that has fascinated mathematicians for centuries. The application provides an interactive interface for users to visualize the Riemann sphere, its properties, and its applications.
+
+## Features
+- Interactive visualization of the Riemann sphere
+- Ability to zoom in and out of the sphere
+- Ability to rotate the sphere
+- Ability to explore the properties of the Riemann sphere
+- Ability to learn more about the Riemann sphere
+
+## Technologies Used
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Three.js
+- React Three Fiber
 
 ## Getting Started
 
@@ -16,21 +31,10 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Author
+- Paul Contreras
+- Github: [@pol-cova](https://github.com/pol-cova)
+- Email: [polc394@gmail.com](mailto:polc394@gmail.com)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
