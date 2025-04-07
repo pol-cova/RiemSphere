@@ -3,6 +3,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 import { ThemeProvider } from "@/components/theme-provider"
 import { VT323 } from "next/font/google"
+import { Analytics } from '@vercel/analytics/next';
 
 // Load VT323 font using Next.js font system
 const vt323 = VT323({
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
