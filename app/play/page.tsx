@@ -7,7 +7,7 @@ import { Slider } from "@/components/ui/slider"
 import { Checkbox } from "@/components/ui/checkbox"
 import { ArrowLeft, RefreshCw } from "lucide-react"
 import * as THREE from "three"
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls"
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js"
 
 export default function PlayPage() {
   const [isMounted, setIsMounted] = useState(false)
@@ -385,8 +385,8 @@ export default function PlayPage() {
     const pointOnSphereLabel = createTextLabel("P(z)", 0, 0, 0, 0x9c27b0)
     scene.add(pointOnSphereLabel)
     pointOnSphereLabel.userData = { followTarget: pointOnSphere, offset: new THREE.Vector3(0.2, 0.2, 0.2) }
-    sphereLabelRef.current = pointOnSphereLabel
-
+    sphereLabelRef.current = pointOnSphereLabel as THREE.Sprite
+    
     const pointOnPlaneGeometry = new THREE.SphereGeometry(0.05, 16, 16)
     const pointOnPlaneMaterial = new THREE.MeshBasicMaterial({ color: 0x3b82f6 }) 
     const pointOnPlane = new THREE.Mesh(pointOnPlaneGeometry, pointOnPlaneMaterial)
