@@ -13,8 +13,15 @@ const vt323 = VT323({
 })
 
 export const metadata: Metadata = {
-  title: "RiemSphere - Riemann Sphere Visualization",
-  description: "A retro-futuristic visualization of the Riemann sphere",
+  title: "RiemSphere - Visualización de la Esfera de Riemann | Matemáticas Complejas",
+  description: "Explora la proyección estereográfica y visualiza números complejos en una esfera de Riemann con esta herramienta interactiva. Aprende conceptos matemáticos avanzados de forma visual e intuitiva.",
+  keywords: ["esfera de riemann", "números complejos", "proyección estereográfica", "visualización matemática", "análisis complejo", "matemáticas interactivas"],
+  authors: [{ name: "RiemSphere" }],
+  openGraph: {
+    title: "RiemSphere - Visualización de la Esfera de Riemann",
+    description: "Explora la proyección estereográfica y visualiza números complejos en una esfera de Riemann con esta herramienta interactiva.",
+    type: "website",
+  },
 }
 
 export default function RootLayout({
